@@ -1,0 +1,19 @@
+
+VARIABLE
+Es necesario la creacion de variables para almacenar datos en el programa de manera temporal y el objetivo de esto es reservar espacio en memoria dependiendo del tipo de variable que vayamos a utilizar, estas variable spermiten hacer programas dinamicos y en la mayoria de los casos el tipo de dato cambiara dependiendo de la interactividad del usuario y el programa.
+
+Tipos de Variables en Java
+     Primitivos: se pueden clasificar en Enteros, Flotantes y Boolean
+          Enteros se clasifican en 
+               byte = 8 bits (default: 0)
+               short = 16bits (default: 0)
+               char = 16 bits y maneja el codigo UNICODE para almacenar valores (tabla de tipo unicode) (default: \u0000)
+               Int = 32 bits (default: 0)
+               long = 64 bits (default: 0)
+          
+          Flotante se clasifican en 
+               float = 32 bits (default: 0.0)
+               double = 64 bits (default: 0.0)
+               boolean = solo almacena true o false (el valor por default es false)
+
+     Referenciados (object): Clases, Interfaces y Arreglos
